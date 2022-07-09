@@ -47,7 +47,7 @@ h1 {
     left: 20px;
     z-index: 0;
 }
-
+/* 调整了before的颜色及角度和位置 */
 .faq.active::before {
     color: #3498db;
     top: -10px;
@@ -59,11 +59,12 @@ h1 {
     margin: 0 35px 0 0;
 }
 
+/* 默认不显示 */
 .faq-text {
     display: none;
     margin: 30px 0 0;
 }
-
+/* 只有在active状态时，才显示为block状态 */
 .faq.active .faq-text {
     display: block;
 }
