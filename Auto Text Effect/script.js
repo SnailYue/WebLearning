@@ -17,5 +17,5 @@ const writeText = () => {
 writeText();
 
 speedElement.addEventListener('input', (e) => {
-    speed = 300 / e.target.va‰lue;
+    speed = 300 / e.target.value;
 });
